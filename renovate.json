@@ -8,7 +8,7 @@
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
     "enabledManagers": [
-        "github-actions",
+        "github-actions"
     ],
     "git-submodules": {
         "enabled": true
