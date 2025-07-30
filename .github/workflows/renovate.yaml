@@ -25,6 +25,6 @@ jobs:
       - name: run renovate
         env:
           RENOVATE_REPOSITORIES: ${{ vars.RENOVATE_REPOSITORIES }}
-        uses: renovatebot/github-action@v43.0.3
+        uses: renovatebot/github-action@v43.0.5
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
